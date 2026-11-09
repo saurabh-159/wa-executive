@@ -1,0 +1,21 @@
+{
+  "name": "wa_worker",
+  "version": "1.0.0",
+  "description": "Baileys WhatsApp worker for Executive Assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node patch-baileys.js && node index.js",
+    "dev": "node patch-baileys.js && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "axios": "^1.21.0",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}

@@ -1,0 +1,36 @@
+# Python
+ai_core/venv/
+**/.venv/
+ai_core/__pycache__/
+**/__pycache__/
+*.pyc
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+ai_core/chroma_db_store/
+ai_core/.env
+.env.local
+.env.*.local
+frontend/.env.local
+
+# Firebase service-account keys (private). Never commit these.
+**/*firebase-adminsdk*.json
+**/*serviceAccount*.json
+**/*service-account*.json
+
+# Node
+node_modules/
+.next/
+frontend/.next/
+wa_worker/node_modules/
+wa_worker/auth_sessions/
+wa_worker/downloads/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+.env
